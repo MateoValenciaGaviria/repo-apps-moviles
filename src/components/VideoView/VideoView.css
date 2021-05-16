@@ -1,0 +1,20 @@
+.videoView__main{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.videoView__video__container{
+    width: 100%;
+    height: auto;
+}
+
+.videoView__video{
+    width: 100%;
+}
+
+.videoView__tittle{
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 10px 0 20px;
+}

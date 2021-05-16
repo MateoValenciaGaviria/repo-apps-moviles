@@ -1,0 +1,35 @@
+.weekView__main{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.weekView__tittle__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.weekView__week{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.weekView__weekTopic{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: normal;   
+}
+
+.weekView__videos__container{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(3 , 33.3%);
+    grid-template-rows: auto;
+}

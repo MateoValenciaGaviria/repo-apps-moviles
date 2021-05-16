@@ -1,0 +1,81 @@
+.app__main{
+  margin: 10px 40px;
+}
+
+.app__main__header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.app__main__tittle{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.app__main__btns__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.app__main__text{
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.app__main__btn__selected{
+  font-family: Consolas;
+  margin: 20px 16px;
+  background: #DBDBDB;
+  font-size: 15px;
+  line-height: 23px;
+  color: #212226;
+  outline-style: none;
+  border-style: none;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.app__main__btn__repo{
+  font-family: Consolas;
+  margin: 20px 16px;
+  background: #DBDBDB;
+  font-size: 15px;
+  line-height: 23px;
+  color: #212226;
+  outline-style: none;
+  border-style: none;
+  padding: 10px 30px;
+}
+
+.app__main__btn__repo:hover{
+  background: #dbdbdbc2;
+  cursor: pointer;
+}
+
+.app__main__btn{
+  font-family: Consolas;
+  margin: 20px 16px;
+  background: #212226;
+  color: #DBDBDB;
+  border-color: #DBDBDB;
+  border-width: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 23px;
+  outline-style: none;
+  border-style: solid;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.app__main__btn:hover{
+  background: #55555a;
+  cursor: pointer;
+}
