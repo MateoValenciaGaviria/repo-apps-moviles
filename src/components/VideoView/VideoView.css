@@ -5,16 +5,29 @@
 }
 
 .videoView__video__container{
+    position: relative;
     width: 100%;
     height: auto;
+    margin: 0;
+    z-index: 0;
+    background-color: black;
 }
 
-.videoView__video{
+.videoView__fallback{
+    display: flex;
     width: 100%;
+    height: auto;
 }
 
 .videoView__tittle{
     color: #FFFFFF;
     font-size: 15px;
     margin: 10px 0 20px;
+}
+
+.videoView__loader{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: -1;
 }

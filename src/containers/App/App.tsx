@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Link, Redirect, Route } from 'react-router-dom';
 import { WeekView } from '../../components/WeekView/WeekView';
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 const weekOne = [
   {
