@@ -29,6 +29,22 @@
   font-size: 20px;
 }
 
+.app__main__btn{
+  font-family: Consolas;
+  margin: 20px 16px;
+  background: #212226;
+  color: #DBDBDB;
+  border-color: #DBDBDB;
+  border-width: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 23px;
+  outline-style: none;
+  border-style: solid;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
 .app__main__btn__selected{
   font-family: Consolas;
   margin: 20px 16px;
@@ -58,22 +74,6 @@
 .app__main__btn__repo:hover{
   background: #dbdbdbc2;
   cursor: pointer;
-}
-
-.app__main__btn{
-  font-family: Consolas;
-  margin: 20px 16px;
-  background: #212226;
-  color: #DBDBDB;
-  border-color: #DBDBDB;
-  border-width: 2px;
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 23px;
-  outline-style: none;
-  border-style: solid;
-  padding: 10px 30px;
-  text-decoration: none;
 }
 
 .app__main__btn:hover{

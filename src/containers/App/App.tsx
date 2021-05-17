@@ -553,6 +553,18 @@ const complementaryVideos = [
 ];
 
 export const App = () => {
+
+  const [ activeBtn, setActiveBtn ] = React.useState(1);
+  const handleAsincronasBtn = () => {
+    setActiveBtn(1);
+  }
+  const handleSincronasBtn = () => {
+    setActiveBtn(2);
+  }
+  const handleComplementariosBtn = () => {
+    setActiveBtn(3);
+  }
+
   return (
     <main className="app__main">
       <BrowserRouter>
@@ -562,9 +574,9 @@ export const App = () => {
       </header>
       <div className="app__main__btns__container">
         <h3 className="app__main__text">Tipo de clase:</h3>
-        <Link to="/asincronas" className="app__main__btn__selected">Asíncrona</Link>
-        <Link to="/sincronas" className="app__main__btn">Síncrona</Link>
-        <Link to="/complementarios" className="app__main__btn">Temas complementarios</Link>
+        <Link to="/asincronas"  className={`${(activeBtn == 1) ? 'app__main__btn__selected' : 'app__main__btn'}`} onClick={handleAsincronasBtn}>Asíncrona</Link>
+        <Link to="/sincronas" className={`${(activeBtn == 2) ? 'app__main__btn__selected' : 'app__main__btn'}`} onClick={handleSincronasBtn}>Síncrona</Link>
+        <Link to="/complementarios" className={`${(activeBtn == 3) ? 'app__main__btn__selected' : 'app__main__btn'}`} onClick={handleComplementariosBtn}>Temas complementarios</Link>
       </div>  
       <div>
       <Redirect from='/' exact to='/asincronas'></Redirect>
