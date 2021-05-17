@@ -403,7 +403,7 @@ const weekFourteen = [
   }
 ];
 
-const synchronousWeekOneM = [
+const synchronousVideosM = [
   {
     key: 1111,
     tittle: 'Semana 1',
@@ -471,7 +471,7 @@ const synchronousWeekOneM = [
   }
 ];
 
-const synchronousWeekOneJ = [
+const synchronousVideosJ = [
   {
     key: 2221, 
     tittle: 'Semana 1',
@@ -558,7 +558,7 @@ export const App = () => {
       <BrowserRouter>
       <header className="app__main__header">
         <h1 className="app__main__tittle">Aplicaciones Móviles</h1>
-        <button className="app__main__btn__repo">Ir al repositorio</button>
+        <a href="https://github.com/Domiciano/AppMoviles211" className="app__main__btn__repo" target="_blank">Ir al repositorio</a>
       </header>
       <div className="app__main__btns__container">
         <h3 className="app__main__text">Tipo de clase:</h3>
@@ -571,75 +571,93 @@ export const App = () => {
         <Route path='/asincronas' render={() => 
           <div >
             <WeekView
-            week={'Semana 1'}
-            weekTopic={'Elementos UI'}
-            weeksArray={weekOne}>
-            </WeekView>
+              week={'Semana 1'}
+              weekTopic={'Elementos UI'}
+              weeksArray={weekOne}>
+              </WeekView>
             <WeekView
-            week={'Semana 2'}
-            weekTopic={'Eventos y navegación'}
-            weeksArray={weekTwo}>
-            </WeekView> 
+              week={'Semana 2'}
+              weekTopic={'Eventos y navegación'}
+              weeksArray={weekTwo}>
+              </WeekView> 
             <WeekView
-            week={'Semana 3'}
-            weekTopic={'Listas'}
-            weeksArray={weekThree}>
-            </WeekView> 
+              week={'Semana 3'}
+              weekTopic={'Listas'}
+              weeksArray={weekThree}>
+              </WeekView> 
             <WeekView
-            week={'Semana 4'}
-            weekTopic={'Cámara y galería'}
-            weeksArray={weekFour}>
-            </WeekView> 
+              week={'Semana 4'}
+              weekTopic={'Cámara y galería'}
+              weeksArray={weekFour}>
+              </WeekView> 
             <WeekView
-            week={'Semana 6'}
-            weekTopic={'Temas y estilos'}
-            weeksArray={weekSix}>
-            </WeekView> 
+              week={'Semana 6'}
+              weekTopic={'Temas y estilos'}
+              weeksArray={weekSix}>
+              </WeekView> 
             <WeekView
-            week={'Semana 7'}
-            weekTopic={'Reglas funcionales'}
-            weeksArray={weekSeven}>
-            </WeekView> 
+              week={'Semana 7'}
+              weekTopic={'Reglas funcionales'}
+              weeksArray={weekSeven}>
+              </WeekView> 
             <WeekView
-            week={'Semana 8'}
-            weekTopic={'Georreferenciación'}
-            weeksArray={weekEight}>
-            </WeekView> 
+              week={'Semana 8'}
+              weekTopic={'Georreferenciación'}
+              weeksArray={weekEight}>
+              </WeekView> 
             <WeekView
-            week={'Semana 9'}
-            weekTopic={'HTTP Firebase'}
-            weeksArray={weekNine}>
-            </WeekView> 
+              week={'Semana 9'}
+              weekTopic={'HTTP Firebase'}
+              weeksArray={weekNine}>
+              </WeekView> 
             <WeekView
-            week={'Semana 10'}
-            weekTopic={'HTTP + Maps'}
-            weeksArray={weekTen}>
-            </WeekView> 
+              week={'Semana 10'}
+              weekTopic={'HTTP + Maps'}
+              weeksArray={weekTen}>
+              </WeekView> 
             <WeekView
-            week={'Semana 11'}
-            weekTopic={'Firestore'}
-            weeksArray={weekEleven}>
-            </WeekView> 
+              week={'Semana 11'}
+              weekTopic={'Firestore'}
+              weeksArray={weekEleven}>
+              </WeekView> 
             <WeekView
-            week={'Semana 12'}
-            weekTopic={'Notificaciones'}
-            weeksArray={weekTwelve}>
-            </WeekView> 
+              week={'Semana 12'}
+              weekTopic={'Notificaciones'}
+              weeksArray={weekTwelve}>
+              </WeekView> 
             <WeekView
-            week={'Semana 14'}
-            weekTopic={'Storage'}
-            weeksArray={weekFourteen}>
+              week={'Semana 14'}
+              weekTopic={'Storage'}
+              weeksArray={weekFourteen}>
             </WeekView>         
           </div>}>
         </Route>
         <Route path='/sincronas' render={() => 
-          <div >
-                            
+          <div className="app__clases__sincronas__container">
+              <div className="app__clases__colum__container">
+                <WeekView
+                  week={'Grupo Martes'}
+                  weekTopic={''}
+                  weeksArray={synchronousVideosM}>
+                </WeekView>
+              </div>
+              <div className="app__clases__sincronas__divider"></div>
+              <div className="app__clases__colum__container">
+                <WeekView
+                  week={'Grupo Jueves'}
+                  weekTopic={''}
+                  weeksArray={synchronousVideosJ}>
+                </WeekView>
+              </div>              
           </div>}>
         </Route>
         <Route path='/complementarios' render={() => 
-          <div >
-                            
+          <div>
+            <WeekView
+              week={'Videos complementarios'}
+              weekTopic={''}
+              weeksArray={complementaryVideos}>
+            </WeekView>                  
           </div>}>
         </Route>
       </div>

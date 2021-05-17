@@ -17,7 +17,7 @@ export const WeekView: React.FC<WeekViewProps> = ( { week, weekTopic, weeksArray
                 <h2 className="weekView__week">{week}: </h2>
                 <h3 className="weekView__weekTopic">{weekTopic}</h3>
             </div>
-            <div className="weekView__videos__container">
+            <div className={`${((weekTopic) && 'weekView__videos__container__3') || ((weekTopic == '') && 'weekView__videos__container__1') || ((week == 'Videos complementarios') && 'weekView__videos__container__2')}`}>
                 {weeksArray.map(({key, tittle, videoUrl}) => {
                     return <VideoView
                     key={key}

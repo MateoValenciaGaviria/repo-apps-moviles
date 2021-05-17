@@ -52,6 +52,7 @@
   outline-style: none;
   border-style: none;
   padding: 10px 30px;
+  text-decoration: none;
 }
 
 .app__main__btn__repo:hover{
@@ -78,4 +79,25 @@
 .app__main__btn:hover{
   background: #55555a;
   cursor: pointer;
+}
+
+.app__clases__sincronas__container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.app__clases__colum__container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.app__clases__sincronas__divider{
+  background-color: #DBDBDB;
+  height: auto;
+  width: 10px;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 130px;
 }

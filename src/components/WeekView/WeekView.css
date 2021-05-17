@@ -27,7 +27,21 @@
     font-weight: normal;   
 }
 
-.weekView__videos__container{
+.weekView__videos__container__1{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(1 , 100%);
+    grid-template-rows: auto;
+}
+
+.weekView__videos__container__2{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(2 , 50%);
+    grid-template-rows: auto;
+}
+
+.weekView__videos__container__3{
     display: grid;
     margin-top: 10px;
     grid-template-columns: repeat(3 , 33.3%);
