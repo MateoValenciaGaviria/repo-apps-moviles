@@ -24,7 +24,7 @@ export const VideoView: React.FC<VideoViewProps> = ( { tittle, videoUrl } ) => {
                         color="#DBDBDB"
                         height={50}
                         width={50}
-                        timeout={10000} //3 secs
+                        timeout={100000} //3 secs
                     />
                 </div>
             </div>

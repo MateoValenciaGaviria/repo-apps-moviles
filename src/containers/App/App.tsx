@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Link, Redirect, Route } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Link, Redirect, Route } from 'react-router-dom';
 import { WeekView } from '../../components/WeekView/WeekView';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
@@ -567,7 +567,7 @@ export const App = () => {
 
   return (
     <main className="app__main">
-      <BrowserRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
       <header className="app__main__header">
         <h1 className="app__main__tittle">Aplicaciones Móviles</h1>
         <a href="https://github.com/Domiciano/AppMoviles211" className="app__main__btn__repo" target="_blank">Ir al repositorio</a>
@@ -673,7 +673,7 @@ export const App = () => {
           </div>}>
         </Route>
       </div>
-      </BrowserRouter>
+      </HashRouter>
     </main>
   );
 }
