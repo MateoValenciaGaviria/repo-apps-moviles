@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/repo-apps-moviles/static/css/main.bcd2d4dc.chunk.css",
+    "main.js": "/repo-apps-moviles/static/js/main.e904b4d7.chunk.js",
+    "main.js.map": "/repo-apps-moviles/static/js/main.e904b4d7.chunk.js.map",
+    "runtime-main.js": "/repo-apps-moviles/static/js/runtime-main.8646fef4.js",
+    "runtime-main.js.map": "/repo-apps-moviles/static/js/runtime-main.8646fef4.js.map",
+    "static/css/2.ab75b8d7.chunk.css": "/repo-apps-moviles/static/css/2.ab75b8d7.chunk.css",
+    "static/js/2.7e073fcf.chunk.js": "/repo-apps-moviles/static/js/2.7e073fcf.chunk.js",
+    "static/js/2.7e073fcf.chunk.js.map": "/repo-apps-moviles/static/js/2.7e073fcf.chunk.js.map",
+    "static/css/3.860c7146.chunk.css": "/repo-apps-moviles/static/css/3.860c7146.chunk.css",
+    "static/js/3.242aee61.chunk.js": "/repo-apps-moviles/static/js/3.242aee61.chunk.js",
+    "static/js/3.242aee61.chunk.js.map": "/repo-apps-moviles/static/js/3.242aee61.chunk.js.map",
+    "index.html": "/repo-apps-moviles/index.html",
+    "static/css/2.ab75b8d7.chunk.css.map": "/repo-apps-moviles/static/css/2.ab75b8d7.chunk.css.map",
+    "static/css/3.860c7146.chunk.css.map": "/repo-apps-moviles/static/css/3.860c7146.chunk.css.map",
+    "static/css/main.bcd2d4dc.chunk.css.map": "/repo-apps-moviles/static/css/main.bcd2d4dc.chunk.css.map",
+    "static/js/2.7e073fcf.chunk.js.LICENSE.txt": "/repo-apps-moviles/static/js/2.7e073fcf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8646fef4.js",
+    "static/css/2.ab75b8d7.chunk.css",
+    "static/js/2.7e073fcf.chunk.js",
+    "static/css/main.bcd2d4dc.chunk.css",
+    "static/js/main.e904b4d7.chunk.js"
+  ]
+}

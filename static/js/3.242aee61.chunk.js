@@ -1,0 +1,2 @@
+(this["webpackJsonprepo-apps-moviles"]=this["webpackJsonprepo-apps-moviles"]||[]).push([[3],{55:function(e,i,r){},56:function(e,i,r){"use strict";r.r(i),r.d(i,"Video",(function(){return t}));r(0),r(55);var o=r(1),t=function(e){var i=e.tittle,r=e.videoUrl;return Object(o.jsx)("div",{className:"video__main",children:Object(o.jsx)("iframe",{className:"video__video",loading:"lazy",src:r,title:i,frameBorder:"0",allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",allowFullScreen:!0})})}}}]);
+//# sourceMappingURL=3.242aee61.chunk.js.map
